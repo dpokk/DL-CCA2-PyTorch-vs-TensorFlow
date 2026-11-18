@@ -1,4 +1,4 @@
-# Comparative Study of PyTorch and TensorFlow (Keras) – CIFAR-10 Image Classification
+# Comparative Study of PyTorch and TensorFlow (Keras) for CIFAR-10 Image Classification
 
 Deep Learning CCA2 · BMS Institute of Technology & Management · Department of CSBS
 
@@ -25,10 +25,10 @@ data split (45,000 / 5,000 / 10,000), optimizer (Adam, lr 0.001), batch size 64 
 
 ## Contents
 
-- `notebooks/CCA2_PyTorch_CIFAR10.ipynb` – PyTorch implementation
-- `notebooks/CCA2_TensorFlow_CIFAR10.ipynb` – TensorFlow / Keras implementation
-- `results/` – raw results from each run (history for every epoch, timings, test predictions)
-- `figures/` – training output screenshots and comparison plots
+- `notebooks/CCA2_PyTorch_CIFAR10.ipynb`: PyTorch implementation
+- `notebooks/CCA2_TensorFlow_CIFAR10.ipynb`: TensorFlow / Keras implementation
+- `results/`: raw results from each run (history for every epoch, timings, test predictions)
+- `figures/`: training output screenshots and comparison plots
 
 ## How to run
 
