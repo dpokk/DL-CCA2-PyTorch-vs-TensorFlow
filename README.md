@@ -27,10 +27,10 @@ data split (45,000 / 5,000 / 10,000), optimizer (Adam, lr 0.001), batch size 64 
 
 - `notebooks/CCA2_PyTorch_CIFAR10.ipynb` – PyTorch implementation
 - `notebooks/CCA2_TensorFlow_CIFAR10.ipynb` – TensorFlow / Keras implementation
-- `results/` – raw results from each run (per-epoch history, timings, test predictions)
+- `results/` – raw results from each run (history for every epoch, timings, test predictions)
 - `figures/` – training output screenshots and comparison plots
 
 ## How to run
 
 Open a notebook in Google Colab, choose **Runtime → Change runtime type → T4 GPU**, then **Runtime → Run all**.
-Each run takes about 5–15 minutes and downloads a `results_*.json` file at the end.
+Each run takes about 5 to 15 minutes and downloads a `results_*.json` file at the end.
